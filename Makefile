@@ -1,5 +1,5 @@
 COMPETITION=house-prices-advanced-regression-techniques
-MESSAGE="Baseline2.0"
+MESSAGE="Trained with Eval set and RMSE"
 
 submit:
 	kaggle competitions submit -c ${COMPETITION} -f submission.csv -m ${MESSAGE}
